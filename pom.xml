@@ -45,6 +45,13 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/TON_UTILISATEUR/TON_REPO</url>
+        </repository>
+    </distributionManagement>
+
     <repositories>
         <repository>
             <id>spigot-repo</id>
